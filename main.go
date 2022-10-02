@@ -28,7 +28,7 @@ var jsonOut = json.NewEncoder(os.Stdout)
 
 func init() {
 	log.SetOutput(os.Stderr)
-	log.SetFlags(0)
+	log.SetFlags(log.LstdFlags | log.Lshortfile)
 	log.SetPrefix(fmt.Sprintf("[%s %s] ", filepath.Base(appName), version))
 
 	config.Timeout = 2 * time.Second
