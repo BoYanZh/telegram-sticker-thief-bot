@@ -309,7 +309,7 @@ Send/forward stickers and sticker set URLs to me to add them to your scratchpad 
 /list  - List scratchpad stickers
 /clear - Clear scratchpad sticker set
 /clone [STICKER_SET] - Make a permanent clone of the scratchpad sticker set, or the specified sticker set
-/steal STICKER_SET - Add all stickers from this set to the scratchpad sticker set
+/steal [STICKER_SET] - Add all stickers from this set to the scratchpad sticker set
 /zip [STICKER_SET] - Download the scratchpad sticker set, or the specified sticker set as a zip archive`)
 }
 
